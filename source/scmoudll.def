@@ -1,0 +1,15 @@
+LIBRARY SCMOUSE
+
+DESCRIPTION 'Hook for mouse moving'
+
+CODE	LOADONCALL
+DATA	LOADONCALL
+STACKSIZE 0x200
+
+PROTMODE
+
+EXPORTS
+  InitHookDLL
+  StartInputHook
+  StopInputHook
+  InputProc
